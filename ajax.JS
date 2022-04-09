@@ -8,7 +8,7 @@ function buttonClickHandler() {
   const xhr = new XMLHttpRequest();
   //opening the object
   //Here we placed the link of a dummy database
-  //use this for post request
+  //use this for get request
   xhr.open("GET","http://dummy.restapiexample.com/api/v1/employee/1", true);
   xhr.getResponseHeader('Content-type','application/json')
   //Symptomps of progress
